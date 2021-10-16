@@ -26,16 +26,26 @@
 
   div{
     float: left;
-	clear:both;
+	clear: both;
 	margin: 2%;
-	text-align:left;
+	text-align: left;
   }
   
   section{
-	  clear:both;
-  } 
+    clear:both;
+  }
   
   
+  #contact_info label{
+	float:left;
+	position: relative;
+  }
+  
+  #contact_info input{
+	float: left;
+	clear: both;
+	position: relative;
+  }
   
 }
 

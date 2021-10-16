@@ -10,7 +10,7 @@
   <h1>Sign-Up Page</h1>
   <form method="post" action="#null" autocapitalize="none">
     <h2>Subscriber Information</h2>
-	<section>
+	<section id="contact_info">
 	  <div>
 	    <label>Subscriber Name: </label>
 	    <input type="text" name="fname_field" placeholder="First Name">
@@ -29,21 +29,21 @@
 	    <input type="tel" name="phone_field" placeholder="555-555-5555">
 	  </div>
 	</section>
-	<section>
-	  <label>News Options: </label>
-	  <div class="radio_grp">
+	<section id="radio_grp">
+	  <h2>News Options: </h2>
+	  <div>
 	    <input type="radio" id="text_news" name="news_field" value="text">
-	    <label for="text_news">I would like to receive news regarding this product via text message</label>
+	    <label for="text_news">I would like to receive news regarding this product only via text message</label>
 	  </div>
-	  <div class="radio_grp">
+	  <div>
 	    <input type="radio" id="email_news" name="news_field" value="email">
-	    <label for="email_news">I would like to receive news regarding this product via email</label>
+	    <label for="email_news">I would like to receive news regarding this product only via email</label>
 	  </div>
-	  <div class="radio_grp">
+	  <div>
 	    <input type="radio" id="both_message" name="news_field" value="both">
-	    <label for="both_message">I would like to receive news regarding this product via text message and email</label>
+	    <label for="both_message">I would like to receive news regarding this product via both text message and email</label>
 	  </div>
-	  <div class="radio_grp">
+	  <div>
 	    <input type="radio" id="no_message" name="news_field" value="none">
 	    <label for="no_message">I would not like to receive news regarding this product</label>
 	  </div>
