@@ -1,24 +1,44 @@
 @media screen and (min-width: 250px){
-  	html{
-	  text-align: center;
-	}
+  html{
+    text-align: center;
+    background: #cccccc;
+  }
+
+  h2{
+    margin: auto;
+    color: #0369FF;
+    font-size: 1.7em;
+  }
 	
-	legend{
-	  margin: auto;
-	}
-	
-	h1{
-	  font-size: 2em;
-	  color: white;
-	  background-color: navy;
-	  box-sizing: border-box;
-	  width: 100%;
-	  margin: 0 0 5% 0;
-	}
-	
-	
+  h1{
+    font-size: 2em;
+    color: white;
+    background-color: #0369FF;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 5% 0;
+    padding: 2.5%;
+  }
+
+  label{
+    font-size:1.2em;
+  }
+
+  div{
+    float: left;
+	clear:both;
+	margin: 2%;
+	text-align:left;
+  }
+  
+  section{
+	  clear:both;
+  } 
+  
+  
+  
 }
 
-@media screen and (min-width: 699px){
+@media screen and (min-width: 600px){
   	
 }

@@ -9,39 +9,41 @@
 <body>
   <h1>Sign-Up Page</h1>
   <form method="post" action="#null" autocapitalize="none">
-    <legend>Subscriber Information</legend>
-	<div>
-	  <label>Subscriber Name: </label>
-	  <input type="text" name="fname_field" placeholder="First Name">
-	  <input type="text" name="lname_field" placeholder="Last Name">
-	</div>
-	<div>
-      <label>Date of Birth: </label>
-	  <input type="date" name="dob_field">
-	</div>
-	<div>
-      <label>Email Address: </label>
-	  <input type="email" name="email_field" placeholder="johndoe@gmail.com">
-	</div>
-	<div>
-      <label>Phone Number: </label>
-	  <input type="tel" name="phone_field" placeholder="555-555-5555">
-	</div>
+    <h2>Subscriber Information</h2>
 	<section>
 	  <div>
-	    <label>News Options: </label>
+	    <label>Subscriber Name: </label>
+	    <input type="text" name="fname_field" placeholder="First Name">
+	    <input type="text" name="lname_field" placeholder="Last Name">
+	  </div>
+	  <div>
+        <label>Date of Birth: </label>
+	    <input type="date" name="dob_field">
+	  </div>
+	  <div>
+        <label>Email Address: </label>
+	    <input type="email" name="email_field" placeholder="johndoe@gmail.com">
+	  </div>
+	  <div>
+        <label>Phone Number: </label>
+	    <input type="tel" name="phone_field" placeholder="555-555-5555">
+	  </div>
+	</section>
+	<section>
+	  <label>News Options: </label>
+	  <div class="radio_grp">
 	    <input type="radio" id="text_news" name="news_field" value="text">
 	    <label for="text_news">I would like to receive news regarding this product via text message</label>
 	  </div>
-	  <div>
+	  <div class="radio_grp">
 	    <input type="radio" id="email_news" name="news_field" value="email">
 	    <label for="email_news">I would like to receive news regarding this product via email</label>
 	  </div>
-	  <div>
+	  <div class="radio_grp">
 	    <input type="radio" id="both_message" name="news_field" value="both">
 	    <label for="both_message">I would like to receive news regarding this product via text message and email</label>
 	  </div>
-	  <div>
+	  <div class="radio_grp">
 	    <input type="radio" id="no_message" name="news_field" value="none">
 	    <label for="no_message">I would not like to receive news regarding this product</label>
 	  </div>
