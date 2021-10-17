@@ -7,8 +7,8 @@ function jschg(){
 }
 
 function btnClick(){	
-  b.style.backgroundColor = 'orange';
-  b.style.color = 'black';
+  b.style.backgroundColor = 'black';
+  b.style.color = 'white';
 	
   var name = document.getElementsByName('fname_field')[0].value + ' ' + document.getElementsByName('lname_field')[0].value;
   alert('The account for subscriber ' + name + ' has been created');
