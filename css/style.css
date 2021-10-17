@@ -4,12 +4,6 @@
     background: #cccccc;
 	font-family: Impact, Arial, sans-serif;
   }
-
-  h2{
-    margin: auto;
-    color: #0369FF;
-    font-size: 1.7em;
-  }
 	
   h1{
     font-size: 2em;
@@ -19,6 +13,12 @@
     width: 100%;
     margin: 0 0 5% 0;
     padding: 2.5%;
+  }
+  
+  h2{
+    margin: auto;
+    color: #0369FF;
+    font-size: 1.7em;
   }
 
   label{
@@ -67,5 +67,40 @@
 }
 
 @media screen and (min-width: 620px){
+  h1{
+    font-size: 3em;
+	margin: 0 0 2.5% 0;
+  }
+  
+  h2{
+    font-size: 2.5em;
+  }
+  
+  label{
+    font-size:2em;
+  }
+  
+  div{
+    float: none;
+	clear:none;
+	margin:auto%;
+	text-align: center;
+  }
+  
+  #contact_info label{
+	float:none;
+	position: relative;
+  }
+  
+  #contact_info input{
+	float: none;
+	clear: none;
+	position: relative;
+	margin: 1% 0 0 0%;
+  }
+  
+  #submit{
+	font-size: 2em;  
+  }
   	
 }
