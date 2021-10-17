@@ -2,6 +2,7 @@
   html{
     text-align: center;
     background: #cccccc;
+	font-family: Impact, Arial, sans-serif;
   }
 
   h2{
@@ -22,20 +23,21 @@
 
   label{
     font-size:1.2em;
+	font-family: Oswald, Arial, sans-serif;
+	
   }
 
   div{
     float: left;
 	clear: both;
-	margin: 2%;
+	margin: 5%;
 	text-align: left;
   }
   
   section{
     clear:both;
   }
-  
-  
+    
   #contact_info label{
 	float:left;
 	position: relative;
@@ -45,10 +47,25 @@
 	float: left;
 	clear: both;
 	position: relative;
+	margin: 10% 0 0 0%;
+  }
+  
+  #submit{
+	position: relative;
+	clear:both;
+    font-family: Impact;
+    box-sizing: border-box;
+    width: 40%;
+    height: 3em;
+    background-color: black;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 30%;
+    border: solid thick #0369FF;	
   }
   
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 620px){
   	
 }
