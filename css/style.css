@@ -84,18 +84,20 @@
     float: none;
 	clear:none;
 	margin:auto%;
+	left: 10%;
+	position: relative;
   }
   
   #contact_info label{
 	float:none;
 	position: relative;
-	left: 20%;
+	left: 10%;
   }
   
   #contact_info input{
 	float: none;
 	clear: none;
-	left: 20%;
+	left: 10%;
 	position: relative;
 	margin: 1% 5% 0 0%;
 	width: 20%;
