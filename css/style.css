@@ -50,7 +50,9 @@
 	float: left;
 	clear: both;
 	position: relative;
-	margin: 10% 0 0 0%;
+	width: 120%;
+	margin: 12%;
+	height: 2.168em;
   }
   
   #submit{
@@ -67,9 +69,27 @@
     border: solid thick #0369FF;	
   }
   
+  #radio_grp input{
+	margin: 5% 0;  
+  }
+  
 }
 
-@media screen and (min-width: 620px){
+@media screen and (min-width: 530px){
+  #contact_info input{
+	width: 250%;
+  }
+  
+  html{
+    font-size: 17px;
+  }	  
+}
+
+@media screen and (min-width: 740px){
+  html{
+    font-size: 20px;
+  }	
+  
   h1{
 	margin: 0 0 2.5% 0;
   }
@@ -83,17 +103,26 @@
 	position: relative;
   }
   
+  #radio_grp div{
+    left: 15%;
+  }
+  
   #contact_info label{
-	float:none;
+	float:left;
 	position: relative;
 	left: 10%;
+	width: 20%;
+  }
+  
+  #contact_info div{
+    margin: 2.5% 0;
   }
   
   #contact_info input{
-	float: none;
+	float:none;
 	clear: none;
-	left: 10%;
 	position: relative;
+	left: 5%;
 	margin: 1% 5% 0 0%;
 	width: 20%;
 	height: 2em;
